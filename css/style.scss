@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height:400px;
+    display: flex;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        z-index: 300;
+    }
+}
+
+main{
+    width:100%;
+    nav{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        li{
+            padding: 0.5rem;
+            list-style: none;
+            font-size:20px;
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+        }
+
+        .separacion {
+            width: 100%;
+            height: 2px;
+            background-color: black;
+        }
+    }
+
+    .carnes{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .background{
+            background-image: url('../img/carne.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        
+    }
+
+    .pastas{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('../img/pasta.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        
+    }
+
+    .pizza{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('../img/pizza.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .empanadas{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('../img/empanada.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .producto{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h3,p{
+            padding-left:20px
+        }
+
+        p{
+            width: 50%;
+        }
+        span{
+            position: absolute;
+            right: 20px;
+            color:green;
+        }
+    }
+
+    .hamburguesas{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('https://www.cocinaconpoco.com/wp-content/uploads/2021/05/hamburguesas-a-la-parrilla-o-barbacoa-CocinaConPoco.com-009.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .tartas{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('https://vadetartas.com/wp-content/uploads/2020/06/preparar-tarta-de-carne.png');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+    }
+    .alcohol{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('https://s1.eestatic.com/2019/04/04/ciencia/nutricion/bebidas_espirituosas-alcohol-energia_388473428_119607645_1706x1280.jpg');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+}
+
+.bebidas{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h2{
+        padding-top: 12px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .background{
+        background-image: url('https://minilatam.com/blog/wp-content/uploads/2020/06/7-bebidas-bajas-en-calorias-y-alcohol-para-tomar-sin-culpa-MINI-0.jpg');
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+    .postres{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            padding-top: 12px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .background{
+            background-image: url('http://resizer.sevilla.abc.es/resizer/resizer.php?imagen=https://sevilla.abc.es/gurme//wp-content/uploads/sites/24/2012/06/postres-helados.jpg&nuevoancho=1920');
+            height: 400px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }   
+    }
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #000000;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h2{
+        font-weight:400;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    div{
+        a{
+            margin: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    header{
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    header{
+        h1{
+            font-size: 1.7rem;
+        }
+    }
+}
+
